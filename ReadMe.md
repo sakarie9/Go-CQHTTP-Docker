@@ -6,7 +6,7 @@
 
 ## 使用
 
-1. 生成配置文件`config.yml`，选择1HTTP模式
+1. 生成配置文件`config.yml`，选择`1：HTTP通信`
    
     ```bash
     docker run --rm -it --name="gocq" -v $PWD/gocq:/data xzsk2/gocqhttp-docker:latest
