@@ -1,4 +1,4 @@
-# Go-CQHttp-Docker
+# Go-CQHTTP-Docker
 
 [Mrs4s/go-cqhttp](https://github.com/Mrs4s/go-cqhttp) 的Docker启动环境
 
