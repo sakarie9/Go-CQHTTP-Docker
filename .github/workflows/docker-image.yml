@@ -2,9 +2,9 @@ name: CI to Docker Hub
 
 on:
   push:
-    branches: [ main ]
+    branches: [ dev ]
   pull_request:
-    branches: [ main ]
+    branches: [ dev ]
   workflow_dispatch:
     
 
@@ -36,7 +36,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/gocqhttp-docker:latest
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/gocqhttp-docker:test
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
