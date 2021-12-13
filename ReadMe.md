@@ -1,5 +1,7 @@
 # Go-CQHTTP-Docker
 
+[![Docker](https://img.shields.io/docker/cloud/automated/xzsk2/gocqhttp-docker)](https://hub.docker.com/repository/docker/xzsk2/gocqhttp-docker)
+
 [Mrs4s/go-cqhttp](https://github.com/Mrs4s/go-cqhttp) 的Docker启动环境
 
 **建议使用 [TG-EFB-QQ-Docker](https://github.com/xzsk2/TG-EFB-QQ-Docker) 进行QQ到Telegram的双向消息转发**
