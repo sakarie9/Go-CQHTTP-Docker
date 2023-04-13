@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-ARG VERSION=v1.0.0
+ARG VERSION=v1.0.1
 ARG BIN_LINK_AMD64=https://github.com/Mrs4s/go-cqhttp/releases/download/${VERSION}/go-cqhttp_linux_amd64.tar.gz
 ARG BIN_LINK_ARM64=https://github.com/Mrs4s/go-cqhttp/releases/download/${VERSION}/go-cqhttp_linux_arm64.tar.gz
 
